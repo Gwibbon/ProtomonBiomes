@@ -1,0 +1,1235 @@
+[
+	{
+		"Role": "Priest",
+		"Name": "Karna (SSS)",
+		"Biome": "Forest",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Karna (SS)",
+		"Biome": "Forest",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Brionac (SSS)",
+		"Biome": "Forest",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Brionac (SS)",
+		"Biome": "Forest",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "T-Rex (SSS)",
+		"Biome": "Forest",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "T-Rex (SS)",
+		"Biome": "Forest",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Embergator",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 200
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Aroundight (SSS)",
+		"Biome": "Forest",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Aroundight (SS)",
+		"Biome": "Forest",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gae Bolg (SSS)",
+		"Biome": "Forest",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gae Bolg (SS)",
+		"Biome": "Forest",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gjallarhorn (SSS)",
+		"Biome": "Forest",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gjallarhorn (SS)",
+		"Biome": "Forest",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Chaomon",
+		"Biome": "Forest",
+		"Rarity": "SS",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Ugarmon",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Netherstag",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Tyrannocroc",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Deathbat",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Ladomon",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Shorewing",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Tigergator",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Goregator",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Sortisnake",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Antlerfang",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Titanclaw",
+		"Biome": "Forest",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Demonic Flying Fox",
+		"Biome": "Forest",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Vampire Bat",
+		"Biome": "Forest",
+		"Rarity": "Blue",
+		"Adapt": "B",
+		"Glory Multi": 1.16,
+		"Lvl Gain": 30
+	},
+	{
+		"Role": "Priest",
+		"Name": "Avalon (SSS)",
+		"Biome": "Frost",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Avalon (SS)",
+		"Biome": "Frost",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Mammoth (SSS)",
+		"Biome": "Frost",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Mammoth (SS)",
+		"Biome": "Frost",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Stormander",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 200
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gullinbursti (SSS)",
+		"Biome": "Frost",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gullinbursti (SS)",
+		"Biome": "Frost",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Eljudnir (SSS)",
+		"Biome": "Frost",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Eljudnir (SS)",
+		"Biome": "Frost",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Fragarach (SSS)",
+		"Biome": "Frost",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Fragarach (SS)",
+		"Biome": "Frost",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Lunarcalf",
+		"Biome": "Frost",
+		"Rarity": "SS",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gloomdart",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Snarefang",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Direantler",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Sabermoose",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Dreadnose",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Elkwing",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Titanimon",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Hartblinker",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Snaketaur",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Darkroc",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Daz Tingo",
+		"Biome": "Frost",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Crocodeer",
+		"Biome": "Frost",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Moose",
+		"Biome": "Frost",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Reindeer",
+		"Biome": "Frost",
+		"Rarity": "Blue",
+		"Adapt": "B",
+		"Glory Multi": 1.16,
+		"Lvl Gain": 30
+	},
+	{
+		"Role": "Priest",
+		"Name": "Simurgh (SSS)",
+		"Biome": "Desert",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Simurgh (SS)",
+		"Biome": "Desert",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Megingjord (SSS)",
+		"Biome": "Desert",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Megingjord (SS)",
+		"Biome": "Desert",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Harpy (SSS)",
+		"Biome": "Desert",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Harpy (SS)",
+		"Biome": "Desert",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 275
+	},
+	{
+		"Role": "Priest",
+		"Name": "Infernalisk",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 200
+	},
+	{
+		"Role": "Priest",
+		"Name": "Leobat",
+		"Biome": "Desert",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 175
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gandiva (SSS)",
+		"Biome": "Desert",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gandiva (SS)",
+		"Biome": "Desert",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Laevateinn (SSS)",
+		"Biome": "Desert",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Laevateinn (SS)",
+		"Biome": "Desert",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gungnir (SSS)",
+		"Biome": "Desert",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gungnir (SS)",
+		"Biome": "Desert",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Behemoth",
+		"Biome": "Desert",
+		"Rarity": "SS",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Ignilion",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Blazebuck",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Batannos",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Elkobra",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Cardimon",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gurglethon",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Faramon",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Harmticore",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Rattlescone",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Snakebat",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Flamethorn",
+		"Biome": "Desert",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Cobraking",
+		"Biome": "Desert",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Rattlesnake",
+		"Biome": "Desert",
+		"Rarity": "Blue",
+		"Adapt": "B",
+		"Glory Multi": 1.16,
+		"Lvl Gain": 30
+	},
+	{
+		"Role": "Priest",
+		"Name": "Typhon (SSS)",
+		"Biome": "Swamp",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Typhon (SS)",
+		"Biome": "Swamp",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Tyrfing (SSS)",
+		"Biome": "Swamp",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Tyrfing (SS)",
+		"Biome": "Swamp",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Brontoscorpio (SSS)",
+		"Biome": "Swamp",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Brontoscorpio (SS)",
+		"Biome": "Swamp",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Crocochad",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 200
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Mystletainn (SSS)",
+		"Biome": "Swamp",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Mystletainn (SS)",
+		"Biome": "Swamp",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Joyeuse (SSS)",
+		"Biome": "Swamp",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Joyeuse (SS)",
+		"Biome": "Swamp",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Durandal (SSS)",
+		"Biome": "Swamp",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Durandal (SS)",
+		"Biome": "Swamp",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Hydra",
+		"Biome": "Swamp",
+		"Rarity": "SS",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Wraithwing",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Ironhart",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Venomander",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Elkgator",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Cobragator",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "BretroCroc",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Vancedon",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Crocthulu",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Hyperpaw",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Cobradeer",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Pyroclad",
+		"Biome": "Swamp",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Antlergator",
+		"Biome": "Swamp",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Caiman",
+		"Biome": "Swamp",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Yangzigator",
+		"Biome": "Swamp",
+		"Rarity": "Blue",
+		"Adapt": "B",
+		"Glory Multi": 1.16,
+		"Lvl Gain": 30
+	},
+	{
+		"Role": "Priest",
+		"Name": "Talos (SSS)",
+		"Biome": "Prairie",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Talos (SS)",
+		"Biome": "Prairie",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Aegis (SSS)",
+		"Biome": "Prairie",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Aegis (SS)",
+		"Biome": "Prairie",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Pegasus (SSS)",
+		"Biome": "Prairie",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 250
+	},
+	{
+		"Role": "Priest",
+		"Name": "Pegasus (SS)",
+		"Biome": "Prairie",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 225
+	},
+	{
+		"Role": "Priest",
+		"Name": "Pyromaw",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 200
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gram (SSS)",
+		"Biome": "Prairie",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Gram (SS)",
+		"Biome": "Prairie",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Balmung (SSS)",
+		"Biome": "Prairie",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Balmung (SS)",
+		"Biome": "Prairie",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Sleipnir (SSS)",
+		"Biome": "Prairie",
+		"Rarity": "SSS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 50
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Sleipnir (SS)",
+		"Biome": "Prairie",
+		"Rarity": "SS",
+		"Adapt": "SSS",
+		"Glory Multi": 1.4,
+		"Lvl Gain": 45
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Griffin",
+		"Biome": "Prairie",
+		"Rarity": "SS",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 55
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Hellwing",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Voidrake",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Tartigris",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "SS",
+		"Glory Multi": 1.34,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Tigermoose",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Taromon",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Mantiger",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Seachimera",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Smoremon",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Mantiharpy",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Crocowing",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Centiger",
+		"Biome": "Prairie",
+		"Rarity": "S",
+		"Adapt": "S",
+		"Glory Multi": 1.28,
+		"Lvl Gain": 40
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Rattlecat",
+		"Biome": "Prairie",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Sabertooth",
+		"Biome": "Prairie",
+		"Rarity": "Purple",
+		"Adapt": "A",
+		"Glory Multi": 1.22,
+		"Lvl Gain": 35
+	},
+	{
+		"Role": "Devotee",
+		"Name": "Clouded Leopard",
+		"Biome": "Prairie",
+		"Rarity": "Blue",
+		"Adapt": "B",
+		"Glory Multi": 1.16,
+		"Lvl Gain": 30
+	}
+]
