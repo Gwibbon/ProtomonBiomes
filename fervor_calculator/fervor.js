@@ -87,6 +87,10 @@ const LAYOUT_KEY = 'protomonLayout';
 const STATS_KEY = 'protomonStats';
 const DISABLED_KEY = 'protomonDisabled';
 
+// Totem exchange costs and gains
+const PRIEST_TOTEM = { cost: 8000, glory: 50 };
+const DEVOTEE_TOTEM = { cost: 8000, glory: 50 };
+
 // Flag to prevent saving during data load
 let isLoading = false;
 
@@ -131,6 +135,9 @@ window.addEventListener('DOMContentLoaded', function() {
 
             // Initialize all biome selectors
             initializeBiomeSelectors();
+
+            // Build the totem exchange box
+            buildTotemBox();
 
             // Load saved data from localStorage
             loadSavedData();
@@ -882,6 +889,12 @@ function updateEfficiencyIndicators() {
         else devoteeEntries.push(entry);
     });
 
+    // Include totem entries in the comparison groups
+    const priestTotemIndicator = document.getElementById('priest-totem-indicator');
+    const devoteeTotemIndicator = document.getElementById('devotee-totem-indicator');
+    if (priestTotemIndicator) priestEntries.push({ indicator: priestTotemIndicator, efficiency: PRIEST_TOTEM.glory / PRIEST_TOTEM.cost });
+    if (devoteeTotemIndicator) devoteeEntries.push({ indicator: devoteeTotemIndicator, efficiency: DEVOTEE_TOTEM.glory / DEVOTEE_TOTEM.cost });
+
     applyEfficiencyIndicators(devoteeEntries);
     applyEfficiencyIndicators(priestEntries);
 }
@@ -1109,5 +1122,24 @@ function getStellaFervorUpToTier(starLevel, stellaTier, role = 'Devotee') {
     }
 
     return totalFervor;
+}
+
+function buildTotemBox() {
+    const box = document.createElement('div');
+    box.className = 'totem-box';
+    box.innerHTML = `
+        <div class="totem-title">Totems (Protolith Dump)</div>
+        <div class="totem-row">
+            <span class="totem-label">Priest:</span>
+            <span class="totem-cost">8000 Protoliths = 50 Glory</span>
+            <span class="efficiency-indicator" id="priest-totem-indicator"></span>
+        </div>
+        <div class="totem-row">
+            <span class="totem-label">Devotee:</span>
+            <span class="totem-cost">8000 Protoliths = 50 Glory</span>
+            <span class="efficiency-indicator" id="devotee-totem-indicator"></span>
+        </div>
+    `;
+    document.body.appendChild(box);
 }
 

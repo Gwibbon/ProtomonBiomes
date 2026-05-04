@@ -232,6 +232,57 @@ h2 {
     color: #cccccc;
 }
 
+/* Totem exchange box */
+.totem-box {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #2d3561;
+    border: 1px solid #867eba;
+    border-radius: 10px;
+    padding: 10px 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+    z-index: 100;
+    min-width: 210px;
+}
+
+.totem-title {
+    color: #867eba;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(134,126,186,0.3);
+    letter-spacing: 0.5px;
+}
+
+.totem-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+
+.totem-row:last-child {
+    margin-bottom: 0;
+}
+
+.totem-label {
+    font-weight: bold;
+    color: #e0ddf5;
+    width: 48px;
+    flex-shrink: 0;
+}
+
+.totem-cost {
+    color: #a09cc0;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
 /* Remove spinner arrows for Chrome, Safari, Edge, Opera */
 .level-input::-webkit-inner-spin-button,
 .level-input::-webkit-outer-spin-button {
