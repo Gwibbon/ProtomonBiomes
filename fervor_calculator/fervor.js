@@ -450,7 +450,10 @@ function addSaveListeners(section) {
                     // Load this protomon's saved stats
                     const stats = JSON.parse(localStorage.getItem(STATS_KEY)) || {};
                     const monStats = stats[monName] || { star: 1, level: 1, stella: '' };
+                    const selectedOpt = select.options[select.selectedIndex];
+                    const monRarity = selectedOpt?.dataset?.rarity || '';
                     starInput.value = monStats.star || 1;
+                    updateStarOptions(starInput, monRarity);
                     levelInput.value = monStats.level || 1;
 
                     // Populate stella options based on star level
@@ -463,7 +466,7 @@ function addSaveListeners(section) {
                     // Enable inputs when a protomon is selected
                     starInput.disabled = false;
                     levelInput.disabled = false;
-                    stellaSelect.disabled = false;
+                    stellaSelect.disabled = starLevel >= getMaxStarForRarity(monRarity);
                     levelInput.max = getMaxLevel(parseInt(starInput.value), role);
                     updateSelectRarityColor(select);
                 } else {
@@ -496,6 +499,12 @@ function addSaveListeners(section) {
                 }
             } else {
                 populateStellaOptions(stellaSelect);
+            }
+            // Disable stella at max star for this protomon's rarity
+            if (select.value) {
+                const selectedOpt = select.options[select.selectedIndex];
+                const monRarity = selectedOpt?.dataset?.rarity || '';
+                stellaSelect.disabled = starLevel >= getMaxStarForRarity(monRarity);
             }
             // Update level cap based on new star level
             const maxLvl = getMaxLevel(starLevel, role);
@@ -660,7 +669,10 @@ function setRowSelection(row, monName, monStats) {
 
     select.value = monName || '';
     updateSelectRarityColor(select);
+    const loadedOpt = select.options[select.selectedIndex];
+    const loadedRarity = loadedOpt?.dataset?.rarity || '';
     starInput.value = monStats.star || '1';
+    updateStarOptions(starInput, loadedRarity);
     levelInput.value = monStats.level || '';
 
     // Populate stella options and set value
@@ -675,7 +687,7 @@ function setRowSelection(row, monName, monStats) {
     starInput.disabled = !monName;
     levelInput.disabled = !monName;
     if (stellaSelect) {
-        stellaSelect.disabled = !monName;
+        stellaSelect.disabled = !monName || (monStats.star || 0) >= getMaxStarForRarity(loadedRarity);
     }
     const loadRole = row.closest('.priest-selector') ? 'Priest' : 'Devotee';
     levelInput.max = getMaxLevel(monStats.star, loadRole);
@@ -901,6 +913,29 @@ function applyEfficiencyIndicators(entries) {
 function getMaxLevel(starLevel, role) {
     if (!starLevel || starLevel < 3) return 250;
     return (starLevel - 1) * (role === 'Priest' ? 40 : 20);
+}
+
+function getMaxStarForRarity(rarity) {
+    switch (rarity) {
+        case 'SSS':
+        case 'SS': return 7;
+        case 'S': return 6;
+        case 'Purple': return 5;
+        case 'Blue': return 4;
+        default: return 7;
+    }
+}
+
+function updateStarOptions(starInput, rarity) {
+    const max = getMaxStarForRarity(rarity);
+    Array.from(starInput.options).forEach(opt => {
+        if (!opt.value) return;
+        opt.hidden = parseInt(opt.value) > max;
+        opt.disabled = parseInt(opt.value) > max;
+    });
+    if (parseInt(starInput.value) > max) {
+        starInput.value = max;
+    }
 }
 
 // =============== LITH COST CALCULATION ===============
