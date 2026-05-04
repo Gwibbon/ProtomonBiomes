@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #212744;
+}
+
+h2 {
+    color: #867eba;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.biome-section h2 {
+    color: black;
+}
+.biome-grid {
+    width: 70%;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.biome-section {
+    width: 350px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    padding: 15px;
+    border-color: #333;
+    position: relative;
+}
+
+.biome-toggle-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #c0392b;
+    color: white;
+    transition: background-color 0.2s, opacity 0.2s;
+    z-index: 1;
+}
+
+.biome-toggle-btn:hover {
+    opacity: 0.85;
+}
+
+.biome-section.biome-disabled .biome-toggle-btn {
+    background-color: #27ae60;
+}
+
+.biome-section.biome-disabled .selector-container {
+    opacity: 0.45;
+    pointer-events: none;
+    user-select: none;
+}
+
+.biome-section.biome-disabled h2 {
+    opacity: 0.5;
+}
+
+.biome-section.biome-disabled .efficiency-indicator {
+    display: none !important;
+}
+
+/* Biome-specific background colors */
+.biome-section[data-biome="Forest"] {
+    background-color: #d4edbc;
+}
+.biome-section[data-biome="Frost"] {
+    background-color: #c6dbe1;
+}
+.biome-section[data-biome="Desert"] {
+    background-color: #ffe5a0;
+}
+.biome-section[data-biome="Swamp"] {
+    background-color: #e6cff2;
+}
+.biome-section[data-biome="Prairie"] {
+    background-color: #ffc8aa;
+}
+
+/* Selector styling */
+.selector-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.priest-selector {
+    margin-bottom: 15px;
+}
+
+.priest-selector label,
+.devotees-selector label {
+    display: block;
+    font-weight: bold;
+    color: #867eba;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.biome-section .priest-selector label,
+.biome-section .devotees-selector label {
+    color: black;
+}
+
+.input-with-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-label {
+    font-size: 11px;
+    color: #666;
+    line-height: 1;
+    margin-bottom: 1px;
+}
+
+.mon-row {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 5px;
+    align-items: flex-end;
+}
+
+.mon-select {
+    flex: 1;
+    padding: 5px 7px;
+    padding-right: 24px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 8 12'%3E%3Cpath fill='%23333' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 6px center;
+    background-size: 12px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Rarity-based select background colors */
+.mon-select.rarity-sss { background-color: #ffcccc; }
+.mon-select.rarity-ss { background-color: #ffe0b2; }
+.mon-select.rarity-s { background-color: #fff9c4; }
+.mon-select.rarity-purple { background-color: #e1bee7; }
+.mon-select.rarity-blue { background-color: #bbdefb; }
+.mon-select option { background-color: white; }
+
+.star-input,
+.level-input,
+.stella-input {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 11px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.star-input {
+    width: 20px;
+    appearance: none;
+} 
+.level-input {
+    width: 33px;
+}
+.stella-input {
+    width: 36px;
+    appearance: none;
+}
+
+.fervor-display {
+    width: 55px;
+    padding: 5px 5px;
+    border: 1px solid #867eba;
+    border-radius: 4px;
+    background-color: #f0eef8;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.fervor-glory {
+    font-size: 11px;
+    font-weight: bold;
+    color: #4a3a7a;
+}
+
+.efficiency-indicator {
+    width: 20px;
+    height: 24px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    flex-shrink: 0;
+    cursor: default;
+}
+
+.efficiency-best {
+    background-color: #2a7a2a;
+    color: #ffffff;
+}
+
+.efficiency-worst {
+    background-color: #8b1a1a;
+    color: #ffffff;
+}
+
+.efficiency-max {
+    background-color: #555555;
+    color: #cccccc;
+}
+
+/* Remove spinner arrows for Chrome, Safari, Edge, Opera */
+.level-input::-webkit-inner-spin-button,
+.level-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove spinner arrows for Firefox */
+.level-input {
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+/* Disabled state styling */
+.star-input:disabled,
+.level-input:disabled,
+.stella-input:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.biome-section .star-input:focus,
+.biome-section .level-input:focus,
+.biome-section .stella-input:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
